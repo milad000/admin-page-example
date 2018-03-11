@@ -20,6 +20,7 @@ export class Sidebar2ndComponent implements OnInit {
       this.newColor = data;
       console.log(data);
     });
+    this.appService.onUpdateTitle('users');
   }
 
 

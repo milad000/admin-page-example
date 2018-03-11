@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { AppService } from '../../app.service';
+
 @Component({
   selector: 'app-homemenu',
   templateUrl: './homemenu.component.html',
@@ -10,9 +12,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomemenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private appService:AppService) { }
 
   ngOnInit() {
+    this.appService.onUpdateTitle('home');
   }
 
 }

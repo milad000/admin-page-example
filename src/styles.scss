@@ -8,12 +8,27 @@
 @import "../sass/component/btn";
 
 
-@import "./src/app/mainnav/mainnav.component.scss";
 @import "./src/app/home/homemenu/homemenu.component.scss";
+@import "./src/app/home/home.component.scss";
+
+
+@import "./src/app/user/user.component.scss";
+
+
+@import "./src/app/product/product.component.scss";
+
+@import "./src/app/chart/chart.component.scss";
+
+
+@import "./src/app/mainnav/mainnav.component.scss";
 @import "./src/app/main/main.component.scss";
+
+
 @import "./src/app/main/content/nav/nav.component.scss";
 @import "./src/app/main/content/appearance/appearance.component.scss";
 @import "./src/app/main/content/content.component.scss";
+
+
 @import "./src/app/main/sidebar/sidebar.component.scss";
 @import "./src/app/main/sidebar2nd/sidebar2nd.component.scss";
 

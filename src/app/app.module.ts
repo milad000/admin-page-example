@@ -16,6 +16,9 @@ import { ContentComponent } from './main/content/content.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { HomeComponent } from './home/home.component';
 import { HomemenuComponent } from './home/homemenu/homemenu.component';
+import { UserComponent } from './user/user.component';
+import { ProductComponent } from './product/product.component';
+import { ChartComponent } from './chart/chart.component';
 
 
 const appRoutes: Routes = [
@@ -23,6 +26,9 @@ const appRoutes: Routes = [
   {path:'home', component: NavComponent},
   {path:'sidebar', component: Sidebar2ndComponent, outlet:'expandmenu'},
   {path:'homemenu', component: HomemenuComponent, outlet:'expandmenu'},
+  {path:'user', component: UserComponent, outlet:'expandmenu'},
+  {path:'product', component: ProductComponent, outlet:'expandmenu'},
+  {path:'chart', component: ChartComponent, outlet:'expandmenu'}
 ];
 
 
@@ -37,7 +43,10 @@ const appRoutes: Routes = [
     ContentComponent,
     MainnavComponent,
     HomeComponent,
-    HomemenuComponent
+    HomemenuComponent,
+    UserComponent,
+    ProductComponent,
+    ChartComponent
   ],
   imports: [BrowserModule, FormsModule, HttpClientModule,
     RouterModule.forRoot(appRoutes)],
