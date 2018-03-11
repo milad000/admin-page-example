@@ -1,0 +1,20 @@
+.btn{
+    background-color: transparent;
+    border: none;
+
+    &__red{
+        background-color: var(--btn-red);
+        color: white;
+        padding:1rem 1.8rem;
+        font-size: 1rem ;
+        border-radius: .3rem;
+    }
+
+    &__purple{
+        background-color: var(--violet-1);
+        color: white;
+        padding: 1rem 1.8rem;
+        font-size: 1rem;
+        border-radius: .3rem;
+    }
+}

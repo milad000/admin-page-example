@@ -1,0 +1,11 @@
+.content{
+    flex:1;
+    background-color: var(--gray-2);
+
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        min-height: 92vh;
+        height: 92vh;
+    }
+}

@@ -1,7 +1,7 @@
 //TYPO
-.u-center-text{text-align: center;}
-.u-left-text{text-align: left;}
-.u-right-text{text-align: right;}
+.u-c-text{text-align: center;}
+.u-l-text{text-align: left;}
+.u-r-text{text-align: right;}
 .u-text-to-upper{text-transform: uppercase;}
 
 //BOXING
@@ -20,7 +20,8 @@
 .u-top-0{top:0;}
 
 //COLOR
-.u-color-white{color: white}
+.u-w{color: white}
+.u-b{color: black}
 
 //SHADOW
 .u-shadow{box-shadow: 0 0 2rem #aaaaaa;}
@@ -28,4 +29,10 @@
 //REMOVE UNDERLINE
 .u-remove-uline{
     text-decoration: none;
+}
+//ACTIVE
+
+.active{
+    opacity: 1;
+    color:green;
 }

@@ -1,0 +1,8 @@
+.main{
+    display: flex;
+    width:100%;
+    background-color: var(--gray-1);
+    @media screen and (max-width:415px){
+        flex-direction: column;
+      } 
+}

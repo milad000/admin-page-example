@@ -1,0 +1,54 @@
+<div class="sidebar__container" [ngStyle]="{'background-color': newColor}">
+    <div class="sidebar__icon">
+        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-home"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon" routerLinkActive="active">
+        <a routerLink="home" >
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-user"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon">
+        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-picture"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon">
+        <a [routerLink]="[{ outlets: { expandmenu: ['sidebar'] } }]" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-cart"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon">
+        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-upload"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon">
+        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-trash"></use>
+            </svg>
+        </a>
+    </div>
+    <div class="sidebar__icon sidebar__end">
+
+    </div>
+    <div class="sidebar__icon ">
+        <a routerLink="appearance" routerLinkActive="active">
+            <svg class="sidebar__svg">
+                <use xlink:href="#lnr-cog"></use>
+            </svg>
+        </a>
+    </div>
+</div>

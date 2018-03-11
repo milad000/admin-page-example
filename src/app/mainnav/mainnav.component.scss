@@ -1,0 +1,63 @@
+.mainnav{
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    background-color: white;
+    justify-items: flex-start;
+    align-items: center;
+
+
+    &__logo{
+        flex:0 0 5rem;
+    }
+
+    &__header{
+        flex:0 0 20rem;
+        align-self: center;
+        height:5rem;
+        background-color:var(--violet-3);
+        @media screen and (max-width:550px){
+            display: none;
+        }
+    }
+
+    &__items{
+        flex:1;
+    }
+
+    &__btn{
+        flex:0 0 10rem;
+        margin-left: 1.2rem;
+        @media screen and (max-width:550px){
+            margin-left: 2.6rem;
+        }
+        @media screen and (max-width:415px){
+            margin-left: 1.2rem;
+        }
+    }
+
+    &__profile{ 
+        flex:0 0 3.5rem;
+        justify-content: flex-end;
+        height: 3.5rem;
+        margin-right: .8rem;
+        border-radius: 100px;
+        background-color: var(--gray-1);
+
+    }
+
+    &__h1{
+        font-size: 1rem;
+        margin-right: .5rem;
+        letter-spacing: 1rem;
+        text-align: right;
+        @media screen and (max-width:550px){
+            font-size: .5rem;
+            letter-spacing: .5rem;
+          } 
+    }
+}
+
+
+
+

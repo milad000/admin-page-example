@@ -1,0 +1,64 @@
+.sidebar {
+    flex: 0 0 5rem;
+    height: 92vh;
+    text-align: center;
+    color: white;
+    background-color: var(--violet-3);
+    @media screen and (max-width: 415px) {
+        height: 5rem;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        height: 92vh;
+        @media screen and (max-width: 415px) {
+            flex-direction: row;
+            height: 5rem;
+        }
+    }
+    &__icon {
+        flex: 0 0 1;
+        justify-self: flex-start;
+        padding: 1rem;
+        cursor: pointer;
+        transition: all .3s;
+        & svg {
+            opacity: .3;
+        }
+        & a {
+            color: white;
+        }
+        &:hover {
+            background-color: var(--violet-4);
+            border-left: .2rem solid var(--btn-red);
+            transform: scaleX(1.05) translateX(2px);
+            & svg {
+                opacity: .8;
+            }
+        }
+        @media screen and (max-width:415px) {
+            align-self: center;
+            &:hover {
+                border: none;
+                border-top: .2rem solid var(--btn-red);
+                transform: scaleX(1.1);
+            }
+        }
+    }
+    &__svg {
+        font-size: 2.2rem;
+        fill: currentColor;
+        width: 1em;
+        height: 1em;
+    }
+    &__end {
+        flex: 1;
+        text-align: left;
+        align-self: center;
+        &:hover {
+            border: none;
+            background-color: var(--violet-3);
+        }
+    }
+}
