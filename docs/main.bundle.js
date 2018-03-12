@@ -460,8 +460,8 @@ var HomemenuComponent = (function () {
             new __WEBPACK_IMPORTED_MODULE_2__shared_deals_model__["a" /* Deals */]('product8', 4, '#lnr-shirt'),
         ];
         this.tables = [
-            new __WEBPACK_IMPORTED_MODULE_3__shared_tables_model__["a" /* Tables */]('product1', 'green', 42, 'unisex, freesize', '../../../assets/images/chart1.png'),
-            new __WEBPACK_IMPORTED_MODULE_3__shared_tables_model__["a" /* Tables */]('product2', 'blue', 39, 'unisex, freesize', '../../../assets/images/chart2.png'),
+            new __WEBPACK_IMPORTED_MODULE_3__shared_tables_model__["a" /* Tables */]('product1', 'green', 42, 'unisex, freesize', '/assets/images/chart1.png'),
+            new __WEBPACK_IMPORTED_MODULE_3__shared_tables_model__["a" /* Tables */]('product2', 'blue', 39, 'unisex, freesize', '/assets/images/chart2.png'),
         ];
         this.rowNumber = [];
         for (var i = 0; i < this.deals.length / 2; i++) {
@@ -915,7 +915,7 @@ var Sidebar2ndComponent = (function () {
 /***/ "../../../../../src/app/mainnav/mainnav.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"mainnav__logo\">\n    <div class=\"logo\"></div>\n</div>\n<div class=\"mainnav__header\">\n    <h1 class=\"header-1 u-text-to-upper u-w u-c-text\">{{title}}</h1>\n</div>\n<div class=\"mainnav__btn\">\n    <button class=\"btn btn__red u-text-to-upper\">new ticket</button>\n</div>\n<div class=\"mainnav__items\">\n    <h1 class=\"mainnav__h1 u-text-to-upper\">welcome milad</h1>\n</div>\n<div class=\"mainnav__profile\">\n    <img class=\"mainnav__img\" src=\"../../../assets/images/milad.jpg\" alt=\"\">\n</div>"
+module.exports = "<div class=\"mainnav__logo\">\n    <div class=\"logo\"></div>\n</div>\n<div class=\"mainnav__header\">\n    <h1 class=\"header-1 u-text-to-upper u-w u-c-text\">{{title}}</h1>\n</div>\n<div class=\"mainnav__btn\">\n    <button class=\"btn btn__red u-text-to-upper\">new ticket</button>\n</div>\n<div class=\"mainnav__items\">\n    <h1 class=\"mainnav__h1 u-text-to-upper\">welcome milad</h1>\n</div>\n<div class=\"mainnav__profile\">\n    <img class=\"mainnav__img\" src=\"/assets/images/milad.jpg\" alt=\"\">\n</div>"
 
 /***/ }),
 
