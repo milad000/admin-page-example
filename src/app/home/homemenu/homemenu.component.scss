@@ -29,13 +29,19 @@
     height: 20rem;
     &--main {
         background-color: white;
-        // // background-image: linear-gradient(to top right, var(--violet-2),var(--violet-4)), url(../images/bg-image1.jpg);
-        // background-image:linear-gradient(to right top,var(--violet-4),rgba(rgb(53, 3, 53), .6));
-        color: white;
+        color: gray;
         height: 43rem;
     }
     &--footer {
         height: 10rem;
         background-color: white;
+    }
+    &__img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    &__h1{
+        padding: 2rem;
     }
 }
