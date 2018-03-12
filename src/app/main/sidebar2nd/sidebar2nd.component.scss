@@ -1,12 +1,9 @@
 .sidebar2nd {
     flex: 0 0 20rem;
-    height: 92vh;
+    // height: 92vh;
     color: white;
-    @media screen and (max-width: 550px) {
-        flex:0 0 15rem;
-        height: 92vh;
-    }
-    @media screen and (max-width:415px) {
+
+    @media screen and (max-width:600px) {
         height: 20rem;
     }
     &__container {
@@ -14,10 +11,10 @@
         flex-direction: column-reverse;
         justify-content: space-around;
         align-items: center;
-        height: 100%;
+        // height: 100%;
         width: 100%;
         background-image: linear-gradient(to top, var(--violet-2), var(--violet-4));
-        @media screen and (max-width: 415px) {
+        @media screen and (max-width: 600px) {
             flex-direction: row;
             justify-content: center;
             align-items: flex-start;
@@ -33,7 +30,7 @@
             justify-content:center;
             align-items: flex-start;
         }
-        @media screen and (max-width: 415px) {
+        @media screen and (max-width: 600px) {
             flex: 1;
         }
     }
@@ -46,7 +43,7 @@
             justify-content:center;
             align-items: flex-start;
         }
-        @media screen and (max-width: 415px) {
+        @media screen and (max-width: 600px) {
             flex: 1;
             border-left: 1px solid rgba(white, .2);
         }
@@ -55,7 +52,7 @@
         flex: 1;
         align-self: center;
         margin: 30% 0;
-        @media screen and (max-width: 415px) {
+        @media screen and (max-width: 600px) {
             flex: 1;
             align-self: center;
             margin: 0;
@@ -83,10 +80,8 @@
             font-size: 1.2rem;
             padding-left: 2rem;
             margin-bottom: 1rem;
-            @media screen and (max-width: 550px) {
-                font-size: .8rem;
-            }
-            @media screen and (max-width:415px) {
+
+            @media screen and (max-width:600px) {
                 font-size: .8rem;
                 padding-left: 1rem;
                 margin-bottom: 0 1rem;
@@ -97,7 +92,7 @@
                 opacity: .8;
             }
         }
-        @media screen and (max-width:415px) {
+        @media screen and (max-width:600px) {
             align-self: center;
             padding: .5rem;
         }
@@ -107,7 +102,7 @@
         fill: currentColor;
         width: 1em;
         height: 1em;
-        @media screen and (max-width: 415px) {
+        @media screen and (max-width: 600px) {
             font-size: 1rem;
         }
     }

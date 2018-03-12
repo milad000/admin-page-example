@@ -19,7 +19,15 @@
 --bg-small:25.88em; //414px
 }
 
+//GRID
+$grid-width: 100%;
+$gutter-vertical:2.5rem;
+$gutter-horizontal:2.5rem;
+$gutter-horizontal-calender:.3rem;
+$gutter-vertical-calender:1rem;
 
+//FONT
+$default-font-size:1.6rem;
 
 *{
   margin: 0;

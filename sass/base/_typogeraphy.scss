@@ -8,3 +8,13 @@
         letter-spacing: .2rem;
     } 
 }
+.header-2{
+    font-size: 1.4rem;
+    letter-spacing: .3rem;
+    text-align: center;
+    padding: 1.7rem;
+    @media screen and (max-width:415px){
+        font-size: .4rem;
+        letter-spacing: .2rem;
+    } 
+}

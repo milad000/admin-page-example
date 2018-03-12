@@ -22,13 +22,14 @@ import { ChartComponent } from './chart/chart.component';
 
 
 const appRoutes: Routes = [
-  {path:'appearance', component: AppearanceComponent},
-  {path:'home', component: NavComponent},
-  {path:'sidebar', component: Sidebar2ndComponent, outlet:'expandmenu'},
-  {path:'homemenu', component: HomemenuComponent, outlet:'expandmenu'},
-  {path:'user', component: UserComponent, outlet:'expandmenu'},
-  {path:'product', component: ProductComponent, outlet:'expandmenu'},
-  {path:'chart', component: ChartComponent, outlet:'expandmenu'}
+  { path: 'appearance', component: AppearanceComponent },
+  { path: 'home', component: HomeComponent, outlet: 'expandmenu' },
+  { path: 'sidebar', component: Sidebar2ndComponent, outlet: 'expandmenu' },
+  { path: 'homeview', component: HomemenuComponent },
+  { path: 'user', component: UserComponent, outlet: 'expandmenu' },
+  { path: 'product', component: ProductComponent, outlet: 'expandmenu' },
+  { path: 'chart', component: ChartComponent, outlet: 'expandmenu' },
+  { path: 'close', component: ChartComponent }
 ];
 
 

@@ -1,21 +1,24 @@
 .sidebar {
     flex: 0 0 5rem;
-    height: 92vh;
+    // height: 92vh;
     text-align: center;
     color: white;
     background-color: var(--violet-3);
-    @media screen and (max-width: 415px) {
+    @media screen and (max-width: 600px) {
         height: 5rem;
     }
     &__container {
         display: flex;
         flex-direction: column;
         justify-items: center;
-        height: 92vh;
-        @media screen and (max-width: 415px) {
+        // height: 92vh;
+        @media screen and (max-width: 600px) {
             flex-direction: row;
             height: 5rem;
         }
+    }
+    & a {
+        color: white;
     }
     &__icon {
         flex: 0 0 1;
@@ -26,9 +29,6 @@
         & svg {
             opacity: .3;
         }
-        & a {
-            color: white;
-        }
         &:hover {
             background-color: var(--violet-4);
             border-left: .2rem solid var(--btn-red);
@@ -37,7 +37,7 @@
                 opacity: .8;
             }
         }
-        @media screen and (max-width:415px) {
+        @media screen and (max-width:600px) {
             align-self: center;
             &:hover {
                 border: none;
@@ -54,6 +54,7 @@
     }
     &__end {
         flex: 1;
+        height: 30.7rem;
         text-align: left;
         align-self: center;
         &:hover {

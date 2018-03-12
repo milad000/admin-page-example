@@ -1,54 +1,54 @@
 <div class="sidebar__container" [ngStyle]="{'background-color': newColor}">
+    <a [routerLink]="[{ outlets: { expandmenu: ['home'] } }]" routerLinkActive="active">
     <div class="sidebar__icon">
-        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-home"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
+    <a [routerLink]="[{ outlets: { expandmenu: ['user'] } }]" >
     <div class="sidebar__icon" routerLinkActive="active">
-        <a [routerLink]="[{ outlets: { expandmenu: ['user'] } }]" >
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-user"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
+    <a [routerLink]="[{ outlets: { expandmenu: ['product'] } }]" routerLinkActive="active">
     <div class="sidebar__icon">
-        <a [routerLink]="[{ outlets: { expandmenu: ['product'] } }]" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-gift"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
+    <a [routerLink]="[{ outlets: { expandmenu: ['chart'] } }]" routerLinkActive="active">
     <div class="sidebar__icon">
-        <a [routerLink]="[{ outlets: { expandmenu: ['chart'] } }]" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-chart-bars"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
+    <a routerLink="homeview" routerLinkActive="active">
     <div class="sidebar__icon">
-        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-upload"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
+    <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
     <div class="sidebar__icon">
-        <a [routerLink]="[{ outlets: { expandmenu: ['homemenu'] } }]" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-trash"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
     <div class="sidebar__icon sidebar__end">
 
     </div>
+    <a routerLink="appearance" routerLinkActive="active">
     <div class="sidebar__icon ">
-        <a routerLink="appearance" routerLinkActive="active">
             <svg class="sidebar__svg">
                 <use xlink:href="#lnr-cog"></use>
             </svg>
-        </a>
-    </div>
+        </div>
+    </a>
 </div>

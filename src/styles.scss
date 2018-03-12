@@ -1,11 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import "../sass/abstracts/mixin";
+
 @import "../sass/base/base";
 @import "../sass/base/utilities";
 @import "../sass/base/typogeraphy";
 
 @import "../sass/component/logo";
 @import "../sass/component/btn";
+
+@import "../sass/layout/grid";
 
 
 @import "./src/app/home/homemenu/homemenu.component.scss";

@@ -1,68 +1,34 @@
-<div class="homemenu__container" [ngStyle]="{'background-color': newColor}">
+<div class="grid-on">
+    <div class="row">
+        <div class="col-1-of-2">
+            <div class="row" *ngFor="let table of tables">
+                <div class="col-1-of-1">
 
+                    <div class="items--main">
+                        <h1 class="header-1">welcome to the world of grids!</h1>
 
+                    </div>
+                </div>
+            </div>
 
-    <div class="homemenu__1st">
-        <div class="homemenu__1st__con">
-            <h1 class="homemenu__h1">
-                home
-            </h1>
-            <div class="homemenu__icon u-c-text u-text-to-upper">
-                <a href="#">
-                    <svg class="homemenu__svg">
-                        <use xlink:href="#lnr-arrow-down-circle"></use>
-                    </svg>
-                    <span>download pdf</span>
-                </a>
+        </div>
+        <div class="col-1-of-2">
+            <div class="row" *ngFor="let row of rowNumber; let i=index">
+                <div class="col-1-of-2" *ngFor="let deal of getCurrentDeals(i)">
+                    <div class="items">
+                        <h1 class="header-2">{{deal.product}}</h1>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-1-of-1">
+            <div class="items--footer">
+                <h1 class="header-1">welcome to the world of grids!</h1>
 
-
-
-    <div class="homemenu__2nd">
-        <div class="homemenu__2nd__con">
-            <h1 class="homemenu__h1">
-
-            </h1>
-            <div class="homemenu__btn">
-                <button class="btn btn__purple u-text-to-upper">new item</button>
-            </div>
-            <div class="homemenu__icon u-c-text u-text-to-upper">
-                <a href="#">
-                    <svg class="homemenu__svg">
-                        <use xlink:href="#lnr-menu-circle"></use>
-                    </svg>
-                    <span>edit items</span>
-                </a>
-            </div>
-            <div class="homemenu__icon u-c-text u-text-to-upper">
-                <a href="#">
-                    <svg class="homemenu__svg">
-                        <use xlink:href="#lnr-plus-circle"></use>
-                    </svg>
-                    <span>add category</span>
-                </a>
-            </div>
-            <div class="homemenu__icon u-c-text u-text-to-upper">
-                <a href="#">
-                    <svg class="homemenu__svg">
-                        <use xlink:href="#lnr-history"></use>
-                    </svg>
-                    <span>history</span>
-                </a>
-            </div>
-            <div class="homemenu__icon u-c-text u-text-to-upper">
-                <a href="#">
-                    <svg class="homemenu__svg">
-                        <use xlink:href="#lnr-question-circle"></use>
-                    </svg>
-                    <span>info</span>
-                </a>
             </div>
         </div>
     </div>
-
-
-
 </div>

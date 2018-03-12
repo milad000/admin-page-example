@@ -1,3 +1,77 @@
-<p>
-  home works!
-</p>
+<div class="home__container" [ngStyle]="{'background-color': newColor}">
+
+    <div class="close">
+        <div class="close__btn">
+            <a (click)="onClose()">
+                <svg class="close__svg">
+                    <use xlink:href="#lnr-cross-circle"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="home__2nd">
+        <div class="home__2nd__con">
+            <h1 class="home__h1">
+
+            </h1>
+            <div class="home__btn">
+                <button class="btn btn__purple u-text-to-upper">new item</button>
+            </div>
+            <div class="home__icon u-c-text u-text-to-upper">
+                <a href="#">
+                    <svg class="home__svg">
+                        <use xlink:href="#lnr-menu-circle"></use>
+                    </svg>
+                    <span>edit items</span>
+                </a>
+            </div>
+            <div class="home__icon u-c-text u-text-to-upper">
+                <a href="#">
+                    <svg class="home__svg">
+                        <use xlink:href="#lnr-plus-circle"></use>
+                    </svg>
+                    <span>add category</span>
+                </a>
+            </div>
+            <div class="home__icon u-c-text u-text-to-upper">
+                <a href="#">
+                    <svg class="home__svg">
+                        <use xlink:href="#lnr-history"></use>
+                    </svg>
+                    <span>history</span>
+                </a>
+            </div>
+            <div class="home__icon u-c-text u-text-to-upper">
+                <a href="#">
+                    <svg class="home__svg">
+                        <use xlink:href="#lnr-question-circle"></use>
+                    </svg>
+                    <span>info</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="home__1st">
+        <div class="home__1st__con">
+            <h1 class="home__h1">
+                home
+            </h1>
+            <div class="home__icon u-c-text u-text-to-upper">
+                <a href="#">
+                    <svg class="home__svg">
+                        <use xlink:href="#lnr-arrow-down-circle"></use>
+                    </svg>
+                    <span>download pdf</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
