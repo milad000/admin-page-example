@@ -27,6 +27,7 @@
     background-color: white;
     padding:1rem;
     height: 20rem;
+    overflow: hidden;
     &--main {
         background-color: white;
         color: gray;
@@ -41,7 +42,8 @@
         width: 100%;
         height: auto;
     }
-    &__h1{
+    &__p{
         padding: 2rem;
+        text-align: justify;
     }
 }

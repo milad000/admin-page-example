@@ -1,13 +1,13 @@
 <div class="user__container" [ngStyle]="{'background-color': newColor}">
 
   <div class="close">
+    <a (click)="onClose()">
     <div class="close__btn">
-      <a (click)="onClose()">
         <svg class="close__svg">
           <use xlink:href="#lnr-cross-circle"></use>
         </svg>
-      </a>
-    </div>
+      </div>
+    </a>
   </div>
 
 

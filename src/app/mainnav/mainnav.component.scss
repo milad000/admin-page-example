@@ -43,7 +43,12 @@
         margin-right: .8rem;
         border-radius: 100px;
         background-color: var(--gray-1);
+        overflow: hidden;
+    }
 
+    &__img{
+        width: 5rem;
+        transform: translateX(-8px);
     }
 
     &__h1{
