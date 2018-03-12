@@ -30,8 +30,8 @@ export class HomemenuComponent implements OnInit {
     new Deals('product8', 4, '#lnr-shirt'),
   ];
   tables: Tables[] = [
-    new Tables('product1', 'green',42,'unisex, freesize','/assets/images/chart1.png'),
-    new Tables('product2', 'blue',39,'unisex, freesize','/assets/images/chart2.png'),
+    new Tables('product1', 'green',42,'unisex, freesize','./assets/images/chart1.png'),
+    new Tables('product2', 'blue',39,'unisex, freesize','./assets/images/chart2.png'),
   ]
 
   constructor(private appService: AppService) {
