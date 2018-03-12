@@ -20,14 +20,14 @@ export class HomemenuComponent implements OnInit {
   rowNumber: number[];
   rows:number[]=[1,2];
   deals: Deals[] = [
-    new Deals('product1', 2, '/pic/product1'),
-    new Deals('product2', 1, '/pic/product2'),
-    new Deals('product3', 3, '/pic/product3'),
-    new Deals('product4', 4, '/pic/product4'),
-    new Deals('product5', 2, '/pic/product5'),
-    new Deals('product6', 1, '/pic/product6'),
-    new Deals('product7', 3, '/pic/product7'),
-    new Deals('product8', 4, '/pic/product8'),
+    new Deals('product1', 2, '#lnr-car'),
+    new Deals('product5', 2, '#lnr-bicycle'),
+    new Deals('product2', 1, '#lnr-heart-pulse'),
+    new Deals('product3', 3, '#lnr-diamond'),
+    new Deals('product4', 4, '#lnr-screen'),
+    new Deals('product6', 1, '#lnr-leaf'),
+    new Deals('product7', 3, '#lnr-printer'),
+    new Deals('product8', 4, '#lnr-shirt'),
   ];
   tables: Tables[] = [
     new Tables('product1', 'green',42,'unisex, freesize','./pic/product1'),

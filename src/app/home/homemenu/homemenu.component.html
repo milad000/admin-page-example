@@ -14,10 +14,12 @@
         </div>
         <div class="col-1-of-2">
             <div class="row" *ngFor="let row of rowNumber; let i=index">
-                <div class="col-1-of-2" *ngFor="let deal of getCurrentDeals(i)">
+                <div class="col-1-of-2-2nd" *ngFor="let deal of getCurrentDeals(i)">
                     <div class="items">
                         <h1 class="header-2">{{deal.product}}</h1>
-
+                        <svg class="homeview__svg">
+                            <use attr.xlink:href="{{deal.imagePath}}"></use>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -26,7 +28,7 @@
     <div class="row">
         <div class="col-1-of-1">
             <div class="items--footer">
-                <h1 class="header-1">welcome to the world of grids!</h1>
+                <h1 class="header-1">Photo by Joshua Harris on Unsplash</h1>
 
             </div>
         </div>

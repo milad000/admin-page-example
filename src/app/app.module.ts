@@ -26,6 +26,7 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent, outlet: 'expandmenu' },
   { path: 'sidebar', component: Sidebar2ndComponent, outlet: 'expandmenu' },
   { path: 'homeview', component: HomemenuComponent },
+  { path: '', redirectTo: '/homeview', pathMatch: 'full' },
   { path: 'user', component: UserComponent, outlet: 'expandmenu' },
   { path: 'product', component: ProductComponent, outlet: 'expandmenu' },
   { path: 'chart', component: ChartComponent, outlet: 'expandmenu' },

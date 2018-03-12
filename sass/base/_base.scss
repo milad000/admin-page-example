@@ -23,8 +23,9 @@
 $grid-width: 100%;
 $gutter-vertical:2.5rem;
 $gutter-horizontal:2.5rem;
-$gutter-horizontal-calender:.3rem;
-$gutter-vertical-calender:1rem;
+$gutter-vertical-s:.2rem;
+$gutter-horizontal-s:.2rem;
+ 
 
 //FONT
 $default-font-size:1.6rem;
@@ -43,8 +44,36 @@ $default-font-size:1.6rem;
 html {
   font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
   box-sizing: border-box;
+  @media screen and (min-width:75em) { font-size: 75%;}//1rem = 12px, 12/16=75%,1800px/16px=112.5
+  
+  @media screen and (max-width:56.25em) { font-size: 56.25%;}//1rem = 9px, 9/16=56.25%,1200px/16px=75
+  
+  @media screen and (max-width:50em) { font-size: 50%;}//1rem = 8px, 8/16=50%, 900/16px=56.25
+  
+  @media screen and (max-width:37.5em) { font-size: 37.5%;}//1rem = 8px, 6/16=37.5%, 600px/16px=37.5 
+}
+// @media screen and (max-width: 600px) {  left: 0;}
+
+
+
+//ISSUES WITH ANGULAR SASS COMPILER AND MIXIN
+/*
+@include respond(phone){//1rem = 6px, 10px/16px = 62.5%
+  font-size: 37.5%;
 }
 
+@include respond(tab-land){//1rem = 9px, 10px/16px = 62.5%
+  font-size: 62.5%;
+}
+
+@include respond(tab-port){//1rem = 8px, 10px/16px = 62.5%
+  font-size: 56.25%;
+}
+
+@include respond(big-screen){//1rem = 12px, 10px/16px = 62.5%
+  font-size: 75%;
+}
+*/
 body {
   background-color: var(--gray-2);
   background-size: cover;
@@ -53,6 +82,10 @@ body {
   line-height: 1.6;
 }
 
+
+
+////////////////////////////////////
+//JUST FOR TEST
 .footer {
   width: 50px;
   height: 50px;
@@ -70,3 +103,4 @@ body {
   background-color: var(--violet-2);
   border-radius: 15px;
 }
+/////////////////////////////////////
